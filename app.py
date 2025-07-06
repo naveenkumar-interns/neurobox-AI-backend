@@ -117,7 +117,8 @@ def build_embedding(database_name, collection_name):
 
 def build_pinecone_vectorstore(database_name, collection_name):
     Pinecone_api_key = "pcsk_3XafLm_SDzfsZm5fmrpXPafmpaUaJydXGr4KucreMZpGay5Uz84MAY4mk9tKYqKTeNUMrp"
-    # Pinecone_api_key = "pcsk_KLfb5_EKsAGk8CtbDfJ1EqRu5TaLtGxaU5QA5ZA6nmamewv5N4S9Fqa8SeGmRHsyzJPAu"
+    #AWS PAID
+    # Pinecone_api_key = "pcsk_KLfb5_EKsAGk8CtbDfJ1EqRu5TaLtGxaU5QA5ZA6nmamewv5N4S9Fqa8SeGmRHsyzJPAu" 
     MONGO_URI = "mongodb+srv://sudhakaran:URvEVWjORGTkaeaq@cluster0.znyhl.mongodb.net/chatbot?retryWrites=true&w=majority&appName=Cluster0"
 
     client = MongoClient(MONGO_URI)
